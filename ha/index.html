@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+body{
+    font-family: Arial;
+    margin: 15px;
+    text-align: center;
+}
+
+.wrap{
+    display:inline-block;
+    margin: 0 40px 2em o;
+    background: lightgray;
+
+}
+
+div{
+    width: 170px;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 0 auto;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+div:hover{
+
+cursor: pointer;
+}
+
+.one, .four, .seven, .ten{
+    background-color: tomato;
+}
+
+.two, .five, .osam, .eleven{
+    background-color: blue;
+}
+
+.three, .six, .nine{
+    background-color: gold;
+}
+
+.one:hover{
+    transform:translateX(20px);
+
+}
+.two:hover{
+    transform: translateY(-20px);
+}
+
+.three:hover{
+    transform: translate(-20px, 20px);
+}
+
+.four:hover{
+    transform: scale(-1);
+}
+
+.five:hover{
+    transform: scaleY(1.2);
+}
+
+.six:hover{
+    transform:scale(1.2, 0.5);
+}
+
+.seven:hover{
+    transform:skewX(20deg);
+}
+
+.eight:hover{
+    transform: skewX(20deg);
+}
+.nine:hover{
+transform: skewY(-20deg);
+}
+.ten:hover{
+    transform: skew (-20deg, 20deg);
+}
+
+.eleven:hover{
+    transform: matrix(1.2,0,0.5,1.2,50,0);
+}
+/*
+    div{
+        width: 150px;
+        height: 150px;
+        line-height: 150px;
+        border-radius: 20px;
+        position: apsolute;
+        color:white;
+        background-color: tomato;
+        text-align: center;
+        top:100px;
+        left: 100px;
+        animation: pulsiraj 1s infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes pulsiraj {
+        0% {
+            transform: scale(0.25);
+        }
+        20% {
+            transform: scale(0.75);
+        }
+       
+        100%{
+            transform: scale(1.5);
+        }
+
+    }
+
+    ------------------------*/
+    /*
+.calendar-wrapper{
+
+    max-width: 280px;
+    font: 100% system-ui;
+}
+.calendar{
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.first-day{
+    grid-column-start: 3;
+
+}
+
+.day-name{
+    background-color: rgb(56, 143, 172);
+}
+h1{
+    text-align: center;
+}
+ol {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li{
+    padding:2px;
+}
+
+ol.calendar li:nth-child(7n-2),
+ol.calendar li:nth-child(7n-3){
+    background-color: rgb(191, 192, 219);
+}
+
+ol.calendar li:nth-child(4),
+ol.calendar li:nth-child(5){
+    background-color: lightgray;
+}
+*/
+</style>
+
+
+</head>
+<body>
+
+
+<div class="wrap">
+    <div class="one">
+        translateX(20px)
+    </div>
+</div>
+
+<div class="wrap">
+    <div class="two">
+        translateY(-20px)
+        </div>
+    </div>
+
+     
+<div class="wrap">
+    <div class="three">
+                translateY(-20px, 20px)
+                </div>
+</div>
+
+<div class="wrap">
+    <div class="four">
+                    scaleX(-1)
+                    </div>
+</div>
+
+<div class="wrap">
+    <div class="five">
+        scaleY(1.2)
+    </div>
+</div>
+
+<div class="wrap">
+    <div class="six">
+            scale(1.2, 0.5)
+        </div>
+</div>
+
+<div class="wrap">
+    <div class="seven">
+        rotate(720deg)
+    </div>
+</div>
+
+<div class="wrap">
+    <div class="osam">
+     skewX(20deg)
+        </div>
+    </div>
+
+    <div class="wrap">
+        <div class="nine">
+            skewY(-20deg)
+        </div>
+    </div>
+
+<div class="wrap">
+        <div class="ten">
+            skew(-20deg, 20deg)
+        </div>
+    </div>
+
+<div class="wrap">
+        <div class="eleven">
+          matrix(1.2,0,0.5,1.2,50,0)
+        </div>
+    </div>
+
+    <!--
+    <h1>Veljača</h1>
+<div class="calendar-wrapper">
+<ol class="calendar">
+<li class="day-name">Pon</li>
+<li class="day-name">Uto</li>
+<li claas="day-name">Sri</li>
+<li class="day-name">Cet</li>
+<li class="day-name">Pet</li>
+<li class="day-name">Sub</li>
+<li class="day-name">Ned</li>
+</ol>
+
+<li class="fist-day">1</li>
+<li>2</li>
+<li>3</li>
+<li>4</li>
+<li>5</li>
+<li>6</li>
+<li>7</li>
+<li>8</li>
+<li>9</li>
+<li>10</li>
+<li>11</li>
+<li>12</li>
+<li>13</li>
+<li>14</li>
+<li>15</li>
+<li>16</li>
+<li>17</li>
+<li>18</li>
+<li>19</li>
+<li>20</li>
+<li>21</li>
+<li>22</li>
+<li>23</li>
+<li>24</li>
+<li>25</li>
+<li>26</li>
+<li>27</li>
+<li>28</li>
+</div>
+-->
+
+
+</body>
+</html>
